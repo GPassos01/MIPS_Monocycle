@@ -80,4 +80,5 @@ set_global_assignment -name VHDL_FILE concat_4_28.vhd
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/altera/Projects/MIPSGNM_v1/Waveform3.vwf"
+set_global_assignment -name VECTOR_WAVEFORM_FILE Simulacao.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/altera/Projects/MIPSGNM_mono_v1_0/Simulacao.vwf"
